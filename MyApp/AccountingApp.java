@@ -12,7 +12,6 @@ public class AccountingApp {
         double expense = valueOfSupply*expenseRate;
         
         // 배열
-        // 반복문
         double[] dividendRates = new double[3];
         dividendRates[0] = 0.5;
         dividendRates[1] = 0.3;
