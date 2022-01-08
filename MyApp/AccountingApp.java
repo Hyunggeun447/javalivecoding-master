@@ -17,9 +17,6 @@ public class AccountingApp {
         dividendRates[1] = 0.3;
         dividendRates[2] = 0.2;
 
-        double dividend1 = income*dividendRates[0];
-        double dividend2 = income*dividendRates[1];
-        double dividend3 = income*dividendRates[2];
         
         
         System.out.println("Value of supply : " +valueOfSupply);
