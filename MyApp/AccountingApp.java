@@ -1,15 +1,23 @@
 package MyApp;
 
 public class AccountingApp {
+    private static double vatRate;
+    private static double valueOfSupply;
+    private static double vat;
+    private static double total;
+    private static double expenseRate;
+    private static double income;
+    private static double expense;
+
     public static void main(String[] args) {
         
-        double valueOfSupply = Double.parseDouble(args[0]);
-        double vatRate = 0.1;
-        double vat = valueOfSupply*vatRate;
-        double total = valueOfSupply*(1+vatRate);
-        double expenseRate = 0.3;
-        double income = valueOfSupply*(1-expenseRate);
-        double expense = valueOfSupply*expenseRate;
+        valueOfSupply = Double.parseDouble(args[0]);
+        vatRate = 0.1;
+        vat = getVAT();
+        total = valueOfSupply*(1+vatRate);
+        expenseRate = 0.3;
+        income = valueOfSupply*(1-expenseRate);
+        expense = getVAT();
         
         // 배열
         double[] dividendRates = new double[3];
@@ -19,11 +27,7 @@ public class AccountingApp {
 
         
         
-        System.out.println("Value of supply : " +valueOfSupply);
-        System.out.println("VAT : " + vat);
-        System.out.println("Total : " + total);
-        System.out.println("Expense : " + expense);
-        System.out.println("Income : " + income);
+        print();
         
         // 반복문
 
@@ -33,6 +37,18 @@ public class AccountingApp {
             i = i+1;
         }
 
+    }
+
+    private static void print() {
+        System.out.println("Value of supply : " +valueOfSupply);
+        System.out.println("VAT : " + vat);
+        System.out.println("Total : " + total);
+        System.out.println("Expense : " + expense);
+        System.out.println("Income : " + income);
+    }
+
+    private static double getVAT() {
+        return valueOfSupply*vatRate;
     }
     
 }
