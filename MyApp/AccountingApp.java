@@ -14,9 +14,9 @@ public class AccountingApp {
         valueOfSupply = Double.parseDouble(args[0]);
         vatRate = 0.1;
         vat = getVAT();
-        total = valueOfSupply*(1+vatRate);
+        total = getTOTAL();
         expenseRate = 0.3;
-        income = valueOfSupply*(1-expenseRate);
+        income = getINCOME();
         expense = getVAT();
         
         // 배열
@@ -37,6 +37,14 @@ public class AccountingApp {
             i = i+1;
         }
 
+    }
+
+    private static double getINCOME() {
+        return valueOfSupply*(1-expenseRate);
+    }
+
+    private static double getTOTAL() {
+        return valueOfSupply*(1+vatRate);
     }
 
     private static void print() {
