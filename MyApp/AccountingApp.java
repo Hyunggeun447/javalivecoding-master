@@ -12,6 +12,7 @@ public class AccountingApp {
         double expense = valueOfSupply*expenseRate;
         
         // 배열
+        // 반복문
         double[] dividendRates = new double[3];
         dividendRates[0] = 0.5;
         dividendRates[1] = 0.3;
@@ -27,9 +28,14 @@ public class AccountingApp {
         System.out.println("Total : " + total);
         System.out.println("Expense : " + expense);
         System.out.println("Income : " + income);
-        System.out.println("Dividend 1 : " + dividend1);
-        System.out.println("Dividend 2 : " + dividend2);
-        System.out.println("Dividend 3 : " + dividend3);
+        
+        // 반복문
+
+        int i = 0;
+        while(i < dividendRates.length) {
+            System.out.println("Dividend "+i+" : " + income * dividendRates[i]);
+            i = i+1;
+        }
 
     }
     
