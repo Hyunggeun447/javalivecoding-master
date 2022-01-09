@@ -6,11 +6,22 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AuthApp2",
+            "request": "launch",
+            "mainClass": "AuthApp2",
+            "projectName": "javalivecoding-master_62eade5d",
+            "args": ["egoing","3333"]
+        },
+        {
+            "type": "java",
             "name": "Launch AuthApp",
             "request": "launch",
             "mainClass": "AuthApp",
             "projectName": "javalivecoding-master_62eade5d",
-            "args": ["egoing","1111"]
+            "args": [
+                "egoing",
+                "1111"
+            ]
         },
         {
             "type": "java",
