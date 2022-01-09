@@ -6,11 +6,21 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AuthApp",
+            "request": "launch",
+            "mainClass": "AuthApp",
+            "projectName": "javalivecoding-master_62eade5d",
+            "args": ["egoing","1111"]
+        },
+        {
+            "type": "java",
             "name": "Launch AccountingIFApp",
             "request": "launch",
             "mainClass": "MyApp.AccountingIFApp",
             "projectName": "javalivecoding-master_62eade5d",
-            "args":["5000.0"]
+            "args": [
+                "5000.0"
+            ]
         },
         {
             "type": "java",

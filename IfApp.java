@@ -13,11 +13,9 @@ public class IfApp {
         // }
         if (false){
             System.out.println(1);
-        } 
-        else if(true){
+        } else if(true){
             System.err.println(2);
-        } 
-        else {
+        } else {
             System.out.println(3);
         }
 
