@@ -2,7 +2,7 @@ package ProjectMethod;
 
 public class FirstMethod {
                                     //매개변수(parameter)
-    private static void printTwoTimes(String text, String delimiter) {
+    public static void printTwoTimes(String text, String delimiter) {
         System.out.println(delimiter);
         System.out.println(text);
         
