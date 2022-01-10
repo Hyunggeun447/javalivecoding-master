@@ -11,6 +11,7 @@ class cal3 extends cal{
         return v1-v2;
     }
 
+    // Overriding(재정의) : 부모 클래스가 가지고있는 메소드를 새롭게 정의하는 것.
     public int sum(int v1 , int v2){
         System.out.println("cal3!");
         return v1+v2;
