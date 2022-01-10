@@ -6,11 +6,21 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FirstMethod",
+            "request": "launch",
+            "mainClass": "ProjectMethod.FirstMethod",
+            "projectName": "javalivecoding-master_62eade5d"
+        },
+        {
+            "type": "java",
             "name": "Launch AuthApp3",
             "request": "launch",
             "mainClass": "AuthApp3",
             "projectName": "javalivecoding-master_62eade5d",
-            "args": ["egoing","11211"]
+            "args": [
+                "egoing",
+                "11211"
+            ]
         },
         {
             "type": "java",
