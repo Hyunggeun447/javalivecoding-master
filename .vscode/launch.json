@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OthersOOP",
+            "request": "launch",
+            "mainClass": "ProjectOOP.OthersOOP",
+            "projectName": "javalivecoding-master_62eade5d"
+        },
+        {
+            "type": "java",
             "name": "Launch AccessLevelModifiersMethod",
             "request": "launch",
             "mainClass": "ProjectMethod.AccessLevelModifiersMethod",

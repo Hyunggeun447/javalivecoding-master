@@ -1,7 +1,5 @@
 package ProjectMethod;
 
-import java.lang.reflect.Method;
-
 class print{
     public String delimiter;
     public void a(){                 //public static void 에서 스테틱을 지움
