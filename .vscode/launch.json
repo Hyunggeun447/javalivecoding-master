@@ -10,7 +10,7 @@
             "request": "launch",
             "mainClass": "AuthApp3",
             "projectName": "javalivecoding-master_62eade5d",
-            "args": ["egoin"]
+            "args": ["egoing","11211"]
         },
         {
             "type": "java",
