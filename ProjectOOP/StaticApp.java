@@ -23,13 +23,13 @@ public class StaticApp {
         System.out.println(Foo.classvar); // Ok
         // System.out.println(Foo.instanceVar); //Error
         Foo.classMathod();
-        // Foo.instanceMethod();
+        // Foo.instanceMethod();  // Error
 
         Foo f1 = new Foo();
         Foo f2 = new Foo();
 
         System.out.println(f1.classvar);
-        System.out.println(f1.instanceVar);
+        System.out.println(f1.instanceVar);  //new 로 인스턴스를 불러왔으므로 main메소드에서도 인스턴스를 사용할 수 있다. 
 
         f1.classvar = "change by f1";
         System.out.println(f1.classvar); // f1에서 classvar를 바꿨고 그 영향으로 Foo의 classvar도 바뀌었고

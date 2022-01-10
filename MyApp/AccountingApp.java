@@ -20,10 +20,11 @@ public class AccountingApp {
         expense = getVAT();
         
         // 배열
-        double[] dividendRates = new double[3];
-        dividendRates[0] = 0.5;
-        dividendRates[1] = 0.3;
-        dividendRates[2] = 0.2;
+        double[] dividendRates = {0.5,0.3,0.2};
+        // double[] dividendRates = new double[3];
+        // dividendRates[0] = 0.5;
+        // dividendRates[1] = 0.3;
+        // dividendRates[2] = 0.2;
 
         
         
