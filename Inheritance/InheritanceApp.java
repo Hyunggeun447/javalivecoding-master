@@ -20,7 +20,8 @@ public class InheritanceApp {
         
         cal3 d = new cal3();
         System.out.println(d.minus(10, 2));
-        System.out.println(d.sum(10, 2));
+        System.out.println(d.sum(10, 2)); // cal3 는 cal로부터 "상속"받아 sum 메소드를 사용할 수 있다.
+                                          // 만약 cal이 변경된다면 cal3의 sum 메소드도 변경된다.
 
     }
     
