@@ -9,14 +9,14 @@ public class ExceptionApp {
         int[] scores = {10,20,30};
         try{
             System.out.println(scores[3]);
-        } catch(ArrayIndexOutOfBoundsException e){
-            System.out.println("배열 범위에 없습니다.");
+        } catch(Exception e){
+            System.out.println("오류 발생.");
         }
 
         try{
             System.out.println(2/0); // 예외상황 발생
-        } catch(ArithmeticException e){
-            System.out.println("산술적 오류 발생");
+        } catch(Exception e){
+            System.out.println("오류 발생.");
         }
 
         // try{
@@ -25,10 +25,8 @@ public class ExceptionApp {
         //     System.out.println(3);
         //     System.out.println(scores[3]);
         //     System.out.println(4);
-        // } catch(ArithmeticException e){
-        //     System.out.println("산술적 오류 발생");
-        // } catch(ArrayIndexOutOfBoundsException e){
-        //     System.out.println("배열에 없는 값");
+        // } catch(Exception e){
+        //     System.out.println("오류 발생");
         // }
 
 
