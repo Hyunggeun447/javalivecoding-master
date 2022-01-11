@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InheritanceApp",
+            "request": "launch",
+            "mainClass": "Inheritance.InheritanceApp",
+            "projectName": "javalivecoding-master_62eade5d"
+        },
+        {
+            "type": "java",
             "name": "Launch MyOOP",
             "request": "launch",
             "mainClass": "ProjectOOP.MyOOP",

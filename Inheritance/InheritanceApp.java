@@ -7,7 +7,7 @@ class cal{
 
     // overloading
     public int sum(int v1 , int v2, int v3){
-        return v1+v2+v3;
+        return this.sum(v1,v2)+v3;
     }
 }
 
@@ -19,7 +19,7 @@ class cal3 extends cal{
     // Overriding(재정의) : 부모 클래스가 가지고있는 메소드를 새롭게 정의하는 것.
     public int sum(int v1 , int v2){
         System.out.println("cal3!");
-        return v1+v2;
+        return super.sum(v1,v2);
     }
 
     // 상속받은 클래스에서도 overloading 역시 가능.  if cal sum (v1,v2,v3) 가 없다면.
