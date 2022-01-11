@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MyException",
+            "request": "launch",
+            "mainClass": "Exception.MyException",
+            "projectName": "javalivecoding-master_62eade5d"
+        },
+        {
+            "type": "java",
             "name": "Launch what",
             "request": "launch",
             "mainClass": "Exception.what",

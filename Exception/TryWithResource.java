@@ -4,7 +4,6 @@ import java.io.FileWriter;
 
 public class TryWithResource {
     public static void main(String[] args) {
-        // try with resource statements
         try(FileWriter f = new FileWriter("text21.txt")){
             f.write("뭐가문제야");
         } catch(Exception e){
