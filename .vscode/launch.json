@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch what",
+            "request": "launch",
+            "mainClass": "Exception.what",
+            "projectName": "javalivecoding-master_62eade5d"
+        },
+        {
+            "type": "java",
+            "name": "Launch TryWithResource",
+            "request": "launch",
+            "mainClass": "Exception.TryWithResource",
+            "projectName": "javalivecoding-master_62eade5d"
+        },
+        {
+            "type": "java",
             "name": "Launch CheckedExceptionApp",
             "request": "launch",
             "mainClass": "Exception.CheckedExceptionApp",
