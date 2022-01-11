@@ -41,10 +41,13 @@ class realCal implements Calculable, Printable{
 public class InterfaceApp {
     public static void main(String[] args) {
 
-        realCal c = new realCal();
+        // realCal c = new realCal();
+        Calculable c = new realCal();   // c의 데이터 타입을 class  뿐 아니라 interface로도 지정할 수 있다. 다만 이경우는 interface print가 구현이 안됌.
         System.out.println(c.sum(10,20));
-        c.print();
-        System.out.println(c.PI);
+        
+        // 이 아래는 interface print라 실행 x
+        // c.print();
+        // System.out.println(c.PI);
         
     }
     
