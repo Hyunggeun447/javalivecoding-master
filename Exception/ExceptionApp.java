@@ -10,13 +10,14 @@ public class ExceptionApp {
         try{
             System.out.println(scores[3]);
         } catch(Exception e){
-            System.out.println("오류 발생.");
+            System.out.println("오류 발생."+e.getMessage());
+            e.printStackTrace();
         }
 
         try{
             System.out.println(2/0); // 예외상황 발생
         } catch(Exception e){
-            System.out.println("오류 발생.");
+            System.out.println("오류 발생."+e.getMessage());
         }
 
         // try{
