@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CheckedExceptionApp",
+            "request": "launch",
+            "mainClass": "Exception.CheckedExceptionApp",
+            "projectName": "javalivecoding-master_62eade5d"
+        },
+        {
+            "type": "java",
             "name": "Launch ExceptionApp",
             "request": "launch",
             "mainClass": "Exception.ExceptionApp",
